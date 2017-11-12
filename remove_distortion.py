@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import glob
+import pickle
 
 # termination criteria
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
@@ -35,5 +36,11 @@ for fname in images:
         img = cv2.drawChessboardCorners(img, (7, 5), corners2, ret)
         cv2.imshow('img', img)
         cv2.waitKey(500)
+
+pickle_out = open("objpoints.pickle", "wb")
+pickle_out1 = open("imgpoints.pickle", "wb")
+
+pickle.dump(objpoints, pickle_out)
+pickle.dump(imgpoints, pickle_out1)
 
 cv2.destroyAllWindows()
