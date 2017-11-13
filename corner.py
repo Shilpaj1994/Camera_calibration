@@ -23,7 +23,7 @@ balanced = cv2.equalizeHist(gray)
     # cv2.imshow('Balanced', balanced)
 
 # Find the chessboard corners
-ret, corners = cv2.findChessboardCorners(gray, (nx, ny), None)
+ret, corners = cv2.findChessboardCorners(balanced, (nx, ny), None)
 
 # If found, draw corners
 if ret == True:
