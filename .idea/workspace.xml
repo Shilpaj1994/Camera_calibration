@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f5b3645-c020-433d-835f-6534199b78fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.JPG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/9.JPG" afterPath="$PROJECT_DIR$/9.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corner.py" afterPath="$PROJECT_DIR$/corner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remove_distortion.py" afterPath="$PROJECT_DIR$/remove_distortion.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/undistortion test.py" afterPath="$PROJECT_DIR$/undistortion test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +27,10 @@
       <file leaf-file-name="undistortion test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/undistortion test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#1541#1554#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +77,8 @@
       <list>
         <option value="$PROJECT_DIR$/corner.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/undistortion test.py" />
         <option value="$PROJECT_DIR$/remove_distortion.py" />
+        <option value="$PROJECT_DIR$/undistortion test.py" />
       </list>
     </option>
   </component>
@@ -387,10 +381,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/undistortion test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1541#1554#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
