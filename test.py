@@ -11,7 +11,7 @@ while True:
     blur = cv2.GaussianBlur(gray, (5, 5), 2)
     edges = cv2.Canny(frame, 100, 300)
 
-    cv2.imshow('Grya', gray)
+    cv2.imshow('Gray', gray)
     cv2.imshow('Blur', blur)
     cv2.imshow('Edges', edges)
     cv2.imshow('Original', frame)
