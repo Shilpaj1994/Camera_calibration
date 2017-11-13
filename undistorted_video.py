@@ -21,7 +21,6 @@ def undistort(img):
 while True:
     ret, frame = cap.read()
     size = frame.shape[:2]
-    # print(size)
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     gray = undistort(gray)
