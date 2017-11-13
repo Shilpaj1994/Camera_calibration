@@ -23,8 +23,8 @@ def cal_undistort(img, objpoints, imgpoints):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray = cv2.equalizeHist(gray)
 
-    ret, corners = cv2.findChessboardCorners(gray, (7, 5), None)
-    img = cv2.drawChessboardCorners(img, (7, 5), corners, ret)
+    # ret, corners = cv2.findChessboardCorners(gray, (7, 5), None)
+    # img = cv2.drawChessboardCorners(img, (7, 5), corners, ret)
 
     ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], None, None)
     dst = cv2.undistort(img, mtx, dist, None, mtx)
